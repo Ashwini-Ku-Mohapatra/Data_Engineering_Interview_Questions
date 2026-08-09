@@ -1,0 +1,25 @@
+What is Delta Lake?
+Why was Delta Lake created?
+Delta Lake vs Parquet.
+Delta Lake vs Apache Iceberg.
+Delta Lake vs Apache Hudi.
+What problems does Delta Lake solve?
+Explain the Lakehouse Architecture.
+What is the Delta Transaction Log?
+Explain _delta_log.
+What files are stored inside _delta_log?
+Explain JSON commit files.
+Explain checkpoint files.
+What is a Delta Table?
+Managed vs External Delta Tables.
+Explain Delta Protocol.
+Explain Delta Reader Version.
+Explain Delta Writer Version.
+Explain Delta Features.
+Explain Delta Metadata.
+Explain Delta Snapshot.
+Explain Delta Versioning.
+Explain Delta History.
+Explain Delta Operations.
+Explain Delta Commits.
+Explain Delta File Layout.
