@@ -1,0 +1,40 @@
+What is Catalyst?
+Catalyst Architecture.
+Parser.
+Analyzer.
+Optimizer.
+Planner.
+Code Generator.
+Logical Plan.
+Rule-based optimization.
+Constant folding.
+Predicate pushdown.
+Projection pruning.
+Null propagation.
+Boolean simplification.
+Constant propagation.
+Join reordering.
+Cost Based Optimizer.
+Statistics collection.
+Column statistics.
+Histograms.
+Expression optimization.
+Subquery optimization.
+Common subexpression elimination.
+Push projection through join.
+Push filter through join.
+Filter reordering.
+Window optimization.
+Aggregate optimization.
+Sort elimination.
+Limit pushdown.
+Data source optimization.
+JDBC pushdown.
+Delta optimization.
+Explain optimized logical plan.
+Explain physical planning.
+Whole Stage Code Generation.
+Generated Java code.
+Explain explain("formatted").
+Explain explain("extended").
+Debug Catalyst decisions.
