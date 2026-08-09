@@ -1,3 +1,4 @@
+Section 1 - Delta lake
 What is Delta Lake?
 Why was Delta Lake created?
 Delta Lake vs Parquet.
@@ -23,3 +24,142 @@ Explain Delta History.
 Explain Delta Operations.
 Explain Delta Commits.
 Explain Delta File Layout.
+
+Section 2 – ACID Transactions (26–45)
+What are ACID properties?
+How does Delta guarantee atomicity?
+How does Delta guarantee consistency?
+How does Delta guarantee isolation?
+How does Delta guarantee durability?
+Explain optimistic concurrency control.
+How are concurrent writes handled?
+What happens when two users update the same row?
+What is conflict detection?
+Explain transaction retries.
+Explain commit validation.
+What happens during a failed commit?
+How are partial writes prevented?
+Why are ACID transactions difficult on object storage?
+How does Delta overcome cloud storage limitations?
+Explain transaction isolation level.
+How are deletes handled?
+How are updates implemented?
+How are inserts committed?
+Explain rollback behavior.
+
+Section 3 – Delta Transaction Log (46–70)
+Explain AddFile action.
+Explain RemoveFile action.
+Explain Metadata action.
+Explain Protocol action.
+Explain CommitInfo action.
+Explain SetTransaction action.
+How does Delta create snapshots?
+What is checkpointing in Delta?
+Why are checkpoints needed?
+Default checkpoint interval.
+Explain log replay.
+How are table versions reconstructed?
+Explain commit ordering.
+Explain transaction IDs.
+Explain operation metrics.
+Explain operation parameters.
+How are statistics stored?
+Explain file-level statistics.
+Explain min/max statistics.
+Explain null count statistics.
+Explain data skipping.
+Explain metadata pruning.
+Explain checkpoint compaction.
+Explain log cleanup.
+Explain log corruption recovery.
+
+Section 4 – Time Travel & Change Data Feed (71–90)
+What is Time Travel?
+Why is Time Travel useful?
+Query by version.
+Query by timestamp.
+Time Travel limitations.
+What is Change Data Feed (CDF)?
+Why use CDF?
+How do you enable CDF?
+Explain CDF output schema.
+Explain insert records in CDF.
+Explain update pre-image.
+Explain update post-image.
+Explain delete records.
+CDC vs CDF.
+Incremental ETL with CDF.
+CDF performance considerations.
+CDF retention.
+Explain replaying changes.
+Explain downstream synchronization.
+Explain CDF troubleshooting.
+
+Section 5 – Schema Management (91–110)
+What is schema enforcement?
+What is schema evolution?
+Difference between enforcement and evolution.
+How do you enable schema evolution?
+What happens when new columns arrive?
+Explain mergeSchema.
+Explain overwriteSchema.
+Explain column mapping.
+Rename columns safely.
+Drop columns safely.
+Nested schema evolution.
+Generated columns.
+Identity columns.
+Constraints in Delta.
+NOT NULL constraints.
+CHECK constraints.
+Default column values.
+Schema compatibility.
+Backward compatibility.
+Forward compatibility.
+
+Section 6 – MERGE, UPDATE, DELETE (111–125)
+Explain MERGE INTO.
+How is MERGE executed internally?
+WHEN MATCHED.
+WHEN NOT MATCHED.
+WHEN NOT MATCHED BY SOURCE.
+SCD Type 1 with MERGE.
+SCD Type 2 with MERGE.
+Incremental upserts.
+Performance tuning for MERGE.
+Why are large MERGE operations slow?
+Optimizing merge predicates.
+Partition-aware merges.
+Update performance.
+Delete performance.
+Merge conflict handling.
+
+Section 7 – Performance Optimization (126–140)
+What is OPTIMIZE?
+Why use OPTIMIZE?
+Explain file compaction.
+What is ZORDER?
+How does ZORDER work?
+When should you use ZORDER?
+Explain data skipping.
+Explain file pruning.
+Explain partition pruning.
+Explain Liquid Clustering.
+When is Liquid Clustering better than partitioning?
+Small file problem.
+Large file problem.
+Explain auto-compaction.
+Explain optimized writes.
+
+Section 8 – Maintenance & Governance (141–150)
+What is VACUUM?
+Why is VACUUM required?
+What are retention periods?
+Risks of aggressive VACUUM.
+Explain Delta history.
+Explain table restore.
+Explain Delta Sharing.
+Explain Unity Catalog integration.
+How do you secure Delta tables?
+How do you monitor Delta table health in production?
