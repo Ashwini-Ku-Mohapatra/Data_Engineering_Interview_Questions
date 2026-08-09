@@ -1,0 +1,214 @@
+Section 1 – Databricks Architecture (1–20)
+What is Databricks?
+Explain the Lakehouse Platform.
+Components of the Databricks Platform.
+Explain the Control Plane.
+Explain the Data Plane.
+Why is the Control Plane separated from the Data Plane?
+Explain workspace architecture.
+Explain workspace deployment on Azure.
+Explain Databricks Runtime.
+Explain Databricks Runtime ML.
+Explain Photon Runtime.
+Explain Serverless Runtime.
+Explain Databricks SQL Warehouse.
+Explain Delta Live Tables.
+Explain Unity Catalog.
+Explain Databricks Apps.
+Explain Lakehouse Monitoring.
+Explain Lakeflow (Jobs & Pipelines).
+Explain Mosaic AI.
+Explain Databricks AI Functions.
+
+Section 2 – Compute & Clusters (21–50)
+Types of Databricks clusters.
+Job Cluster vs All-Purpose Cluster.
+Shared Cluster vs Single User Cluster.
+Serverless Compute.
+Photon-enabled Cluster.
+Cluster lifecycle.
+Cluster startup process.
+Cluster termination.
+Cluster restart.
+Cluster policies.
+Auto Scaling.
+Auto Termination.
+Driver Node.
+Worker Node.
+Spot Instances.
+On-demand Instances.
+Instance Pools.
+Cluster sizing strategy.
+Choosing VM families.
+Executor sizing.
+Driver sizing.
+Local SSD usage.
+Autoscaling limitations.
+Cluster events.
+Cluster logs.
+Init Scripts.
+Libraries installation.
+Runtime upgrades.
+Cluster access modes.
+Compute best practices.
+
+Section 3 – Jobs & Workflows (51–80)
+What are Databricks Jobs?
+What are Workflows?
+Jobs vs Workflows.
+Multi-task Jobs.
+Task dependencies.
+Notebook tasks.
+Python wheel tasks.
+JAR tasks.
+SQL tasks.
+Pipeline tasks.
+Conditional tasks.
+Retry policies.
+Task parameters.
+Job parameters.
+Scheduling Jobs.
+Trigger-based Jobs.
+File arrival triggers.
+Webhook triggers.
+Manual execution.
+Job clusters vs shared clusters.
+Job concurrency.
+Maximum concurrent runs.
+Job queues.
+Repair runs.
+Partial reruns.
+Job notifications.
+Workflow monitoring.
+Workflow debugging.
+Job metrics.
+Workflow best practices.
+
+Section 4 – Unity Catalog (81–120)
+What is Unity Catalog?
+Why was Unity Catalog introduced?
+Hive Metastore vs Unity Catalog.
+Unity Catalog architecture.
+Metastore.
+Catalog.
+Schema.
+Table.
+Volume.
+Function.
+External Location.
+Storage Credential.
+Managed Table.
+External Table.
+Managed Volume.
+External Volume.
+Table permissions.
+Column-level security.
+Row-level security.
+Dynamic Views.
+Data masking.
+Tags.
+Lineage.
+Data discovery.
+Auditing.
+Unity Catalog APIs.
+Cross-workspace sharing.
+Delta Sharing integration.
+Privilege inheritance.
+Ownership transfer.
+Catalog Explorer.
+Access requests.
+Data governance.
+Data quality integration.
+Unity Catalog best practices.
+Common security pitfalls.
+Migration from Hive Metastore.
+Troubleshooting permissions.
+Multi-cloud governance.
+Disaster recovery considerations.
+Section 5 – Storage (121–145)
+Explain DBFS.
+Is DBFS still recommended for new workloads?
+Explain Volumes.
+DBFS vs Volumes.
+Mount Points.
+Are mounts recommended?
+External locations.
+ADLS integration.
+Blob Storage integration.
+S3 integration.
+GCS integration.
+File permissions.
+Access tokens.
+Secret scopes.
+Credential passthrough.
+Managed Identity integration.
+Service Principal integration.
+Storage optimization.
+File organization.
+Partition strategy.
+Delta storage layout.
+Storage cost optimization.
+Storage security.
+Encryption at rest.
+Encryption in transit.
+
+Section 6 – Repos & Development (146–165)
+What are Databricks Repos?
+Git integration.
+GitHub integration.
+Azure DevOps integration.
+GitLab integration.
+Branch strategy.
+Pull Request workflow.
+Merge conflicts.
+Notebook versioning.
+Python package development.
+Modular code organization.
+Testing notebooks.
+CI/CD integration.
+Deployment pipelines.
+Environment promotion.
+Secrets in development.
+Code reviews.
+Release strategy.
+Rollback strategy.
+Development best practices.
+
+Section 7 – Security (166–185)
+Authentication methods.
+Authorization.
+RBAC.
+Unity Catalog privileges.
+SCIM provisioning.
+SSO.
+Azure Entra ID integration.
+Service Principals.
+Managed Identities.
+Personal Access Tokens.
+OAuth authentication.
+Secret Scopes.
+Key Vault-backed secret scopes.
+Network isolation.
+Private Link.
+Secure Cluster Connectivity.
+Audit logs.
+Compliance considerations.
+Data exfiltration protection.
+Least privilege principle.
+
+Section 8 – Monitoring & Cost Optimization (186–200)
+How do you monitor Databricks Jobs?
+Explain cluster metrics.
+Explain Ganglia metrics.
+Explain Spark UI integration.
+Log delivery.
+Cost attribution using tags.
+Cluster utilization analysis.
+Detecting idle clusters.
+Optimizing serverless costs.
+Instance Pool benefits.
+Auto termination tuning.
+Photon cost vs performance trade-offs.
+SQL Warehouse sizing.
+How would you reduce a Databricks bill by 40% without impacting SLAs?
+What operational dashboards would you build for a production Databricks platform?
