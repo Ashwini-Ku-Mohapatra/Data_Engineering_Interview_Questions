@@ -36,6 +36,9 @@ EXAMPLE
 Concrete E-Commerce Scenario
 Imagine you are analyzing an online marketplace dataset. You have a massive Transactions table (billions of rows) containing every purchase made, and you want to calculate the total amount spent by each unique user_id.
 To get this result, your code must group all transactions belonging to user_id: 101 together, all transactions for user_id: 102 together, and so on.
+
+<img width="739" height="485" alt="image" src="https://github.com/user-attachments/assets/3e509943-b4ae-4f59-baf7-ed55700674ae" />
+
 ________________________________________
  
 Step 2: The Bad Way (groupByKey — Full Shuffle)
@@ -53,6 +56,7 @@ o	Executor 2 is assigned to calculate Partition 2 (user_id: 102). It pulls the [
 2.	Aggregation: Each executor deserializes the data, groups it, and sums the values in memory.
 •	Total items sent over the network: 2 records (1 from Ex1 to Ex2, and 1 from Ex2 to Ex1). Scale this to billions of rows, and the network crashes.
 ________________________________________
+
 Step 3: The Optimized Way (reduceByKey — Map-Side Combiner)
 If you use reduceByKey instead, Spark optimizes the shuffle process by performing a local pre-aggregation. [1, 2]
 Phase 1: Shuffle Write (Map Side)
