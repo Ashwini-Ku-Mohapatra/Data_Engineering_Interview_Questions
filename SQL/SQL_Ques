@@ -1,0 +1,174 @@
+Section A
+----------
+
+What is SQL?
+Types of SQL statements.
+DDL vs DML vs DCL vs TCL.
+What is normalization?
+Explain denormalization.
+Primary Key vs Unique Key.
+Foreign Key.
+Candidate Key.
+Composite Key.
+Surrogate Key.
+Clustered Index vs Non-clustered Index.
+Explain B-Tree Index.
+Bitmap Index.
+Covering Index.
+Composite Index.
+Index Scan vs Index Seek.
+Table Scan.
+Heap Table.
+What is Cardinality?
+What is Selectivity?
+Explain Constraints.
+Default Constraint.
+Check Constraint.
+Explain Views.
+Materialized Views.
+Temporary Tables.
+CTE.
+Recursive CTE.
+Stored Procedures.
+Functions.
+
+Section B – Query Execution (31–55)
+-----------------------------------
+SQL Query Execution Order.
+FROM vs WHERE vs GROUP BY vs HAVING.
+Why can't aliases be used in WHERE?
+Explain Logical Query Processing.
+Execution Plan.
+Cost-based Optimizer.
+Rule-based Optimizer.
+Predicate Pushdown.
+Projection Pushdown.
+Join Reordering.
+Query Hints.
+Parallel Query Execution.
+Explain Statistics.
+Histogram.
+Cardinality Estimation.
+Parameter Sniffing.
+Query Plan Cache.
+Index Selection.
+Filter Pushdown.
+Partition Pruning.
+Dynamic Partition Pruning.
+Data Skipping.
+Explain Lazy Evaluation in Spark SQL.
+Explain Catalyst Optimization.
+Explain Adaptive Query Execution.
+
+Section C – Joins (56–80)
+------------------------
+Inner Join.
+Left Join.
+Right Join.
+Full Outer Join.
+Cross Join.
+Self Join.
+Semi Join.
+Anti Join.
+Natural Join.
+Broadcast Join.
+Shuffle Hash Join.
+Sort Merge Join.
+Nested Loop Join.
+When does Spark choose Broadcast Join?
+When does Spark choose Sort Merge Join?
+Join Order Optimization.
+Join Skew.
+Cartesian Product.
+Explain Join Elimination.
+Star Schema Join.
+Snowflake Schema Join.
+Many-to-Many Join issues.
+Duplicate records after Join.
+Join Optimization.
+Handling Large Table Joins.
+Section D – Window Functions (81–110)
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+NTILE()
+LAG()
+LEAD()
+FIRST_VALUE()
+LAST_VALUE()
+CUME_DIST()
+PERCENT_RANK()
+Running Total.
+Moving Average.
+Rolling Sum.
+Sliding Window.
+Partition By.
+Order By inside Window.
+Frame Clause.
+ROWS BETWEEN.
+RANGE BETWEEN.
+Window Aggregation.
+Top N per group.
+Second Highest Salary.
+Remove Duplicates.
+Consecutive Dates.
+Gaps and Islands.
+Sessionization.
+Running Balance.
+Median.
+Percentiles.
+Cohort Analysis.
+
+Section D – Aggregation (111–130)
+---------------------------------
+COUNT()
+COUNT(*)
+COUNT(column)
+SUM()
+AVG()
+MIN()
+MAX()
+GROUP BY.
+HAVING.
+GROUPING SETS.
+ROLLUP.
+CUBE.
+DISTINCT.
+APPROX_COUNT_DISTINCT.
+Aggregate Pushdown.
+Aggregation Optimization.
+Partial Aggregation.
+Hash Aggregation.
+Sort Aggregation.
+Aggregate Performance.
+Section F – Advanced SQL (131–160)
+Pivot.
+Unpivot.
+MERGE.
+UPSERT.
+DELETE using JOIN.
+UPDATE using JOIN.
+Recursive Queries.
+Dynamic SQL.
+Correlated Subqueries.
+EXISTS.
+NOT EXISTS.
+IN vs EXISTS.
+ANY.
+ALL.
+UNION.
+UNION ALL.
+INTERSECT.
+EXCEPT/MINUS.
+Recursive Hierarchy.
+JSON Parsing.
+XML Processing.
+Arrays in SQL.
+Struct Data Types.
+Explode.
+Lateral View.
+Cross Apply.
+Outer Apply.
+Scalar Functions.
+Table-valued Functions.
+Dynamic Pivot.
