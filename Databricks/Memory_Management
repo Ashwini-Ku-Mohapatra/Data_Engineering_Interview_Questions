@@ -1,0 +1,30 @@
+Unified Memory Manager.
+Storage memory.
+Execution memory.
+Off-heap memory.
+On-heap memory.
+Executor memory.
+Driver memory.
+JVM heap.
+Garbage Collection.
+Spill.
+Spill threshold.
+Disk spill.
+Shuffle spill.
+Broadcast memory.
+Cache memory.
+Serialization memory.
+Kryo serialization.
+Java serialization.
+Memory fraction.
+Storage fraction.
+Executor OOM.
+Driver OOM.
+GC tuning.
+Large object handling.
+Memory leak scenarios.
+Cache eviction.
+Persist storage levels.
+Executor sizing.
+Cluster sizing.
+Memory tuning interview scenario.
