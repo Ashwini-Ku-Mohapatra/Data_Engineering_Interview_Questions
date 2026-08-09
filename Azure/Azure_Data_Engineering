@@ -1,0 +1,303 @@
+Section 1 – Azure Fundamentals (1–25)
+
+Explain Azure Regions.
+Explain Availability Zones.
+Explain Availability Sets.
+Resource Groups.
+Azure Resource Manager (ARM).
+ARM vs Bicep vs Terraform.
+Azure Subscriptions.
+Azure Management Groups.
+Azure Tags.
+Azure Policies.
+Azure Locks.
+Azure RBAC.
+Azure Monitor.
+Azure Advisor.
+Azure Service Health.
+Azure Resource Graph.
+Azure Cost Management.
+Azure CLI.
+Azure PowerShell.
+Azure Portal.
+Azure SDKs.
+Azure REST APIs.
+Azure Blueprints (legacy) / Azure Landing Zones concepts.
+Azure Landing Zones.
+Azure Well-Architected Framework.
+
+Section 2 – Azure Storage (26–60)
+ADLS Gen2 Architecture.
+Blob Storage.
+File Storage.
+Queue Storage.
+Table Storage.
+Storage Accounts.
+Hierarchical Namespace.
+Access Tiers.
+Hot Tier.
+Cool Tier.
+Archive Tier.
+Lifecycle Management.
+Soft Delete.
+Versioning.
+Immutable Storage.
+Shared Access Signature (SAS).
+User Delegation SAS.
+Service SAS.
+Account SAS.
+Private Endpoints.
+Service Endpoints.
+Firewall Rules.
+Storage Encryption.
+Customer Managed Keys.
+Microsoft Managed Keys.
+Storage Replication (LRS, ZRS, GRS, RA-GRS, GZRS).
+Geo-Redundancy.
+Storage Performance Tiers.
+Blob Index Tags.
+Event Grid integration.
+Storage Monitoring.
+ADLS performance optimization.
+Small-file handling.
+Partition design.
+Storage cost optimization.
+
+Section 3 – Azure Data Factory (61–100)
+What is Azure Data Factory?
+Pipelines.
+Activities.
+Linked Services.
+Datasets.
+Integration Runtime.
+Self-hosted Integration Runtime.
+Azure Integration Runtime.
+Managed Virtual Network IR.
+Mapping Data Flow.
+Wrangling Data Flow.
+Copy Activity.
+Lookup Activity.
+ForEach Activity.
+Until Activity.
+If Condition.
+Switch Activity.
+Execute Pipeline.
+Web Activity.
+Azure Function Activity.
+Notebook Activity.
+Databricks Activity.
+Synapse Activity.
+Trigger types.
+Tumbling Window Trigger.
+Event Trigger.
+Schedule Trigger.
+Parameters.
+Variables.
+Dynamic Content.
+Expressions.
+Debug Mode.
+Pipeline Monitoring.
+Retry policies.
+Failure handling.
+Incremental loads.
+Metadata-driven pipelines.
+CI/CD for ADF.
+Git integration.
+ADF best practices.
+
+Section 4 – Azure Databricks Integration (101–130)
+How does Azure Databricks integrate with ADLS Gen2?
+Managed Identity vs Service Principal.
+Unity Catalog with ADLS.
+External Locations.
+Storage Credentials.
+Secure Cluster Connectivity.
+VNet Injection.
+Private Link.
+Key Vault-backed secrets.
+Azure Monitor integration.
+Log Analytics integration.
+Azure Event Hubs integration.
+Azure SQL integration.
+Azure Synapse integration.
+Microsoft Fabric integration.
+Azure Functions integration.
+Azure API Management integration.
+Azure Container Registry integration.
+Azure Kubernetes Service integration.
+Azure ML integration.
+Databricks Jobs orchestration with ADF.
+Databricks Repos with Azure DevOps.
+Azure DevOps pipelines for Databricks.
+Cost optimization in Azure Databricks.
+Monitoring clusters.
+Disaster recovery.
+Multi-region architecture.
+Cross-subscription access.
+Cross-tenant access.
+Production deployment strategy.
+
+Section 5 – Azure Networking (131–160)
+VNets.
+Subnets.
+NSGs.
+User Defined Routes.
+Azure Firewall.
+Application Gateway.
+Azure Load Balancer.
+ExpressRoute.
+VPN Gateway.
+DNS in Azure.
+Private DNS Zones.
+Private Link.
+Service Endpoints.
+Public Endpoints.
+NAT Gateway.
+Bastion.
+Network Watcher.
+Peering.
+Hub-and-Spoke architecture.
+Landing Zone networking.
+Zero Trust networking.
+Network isolation.
+Secure data access.
+Network troubleshooting.
+Hybrid connectivity.
+Firewall rules for Databricks.
+Secure outbound traffic.
+Ingress/Egress design.
+Network performance tuning.
+Common networking interview scenarios.
+
+Section 6 – Identity & Security (161–185)
+Microsoft Entra ID (Azure AD).
+Managed Identity.
+System-assigned vs User-assigned Managed Identity.
+Service Principal.
+OAuth.
+RBAC.
+ACLs.
+Key Vault.
+Key Vault secrets.
+Key Vault keys.
+Key Vault certificates.
+Secret rotation.
+Managed HSM.
+Conditional Access.
+PIM (Privileged Identity Management).
+Defender for Cloud.
+Microsoft Purview basics.
+Encryption at rest.
+Encryption in transit.
+TLS.
+Customer-managed keys.
+Data exfiltration prevention.
+Audit logging.
+Compliance (GDPR, HIPAA, SOC2).
+Identity troubleshooting.
+
+Section 7 – Monitoring & Operations (186–205)
+Azure Monitor.
+Log Analytics.
+Application Insights.
+Azure Alerts.
+Diagnostic Settings.
+Metrics vs Logs.
+Workbooks.
+Dashboards.
+Azure Automation.
+Automation Accounts.
+Runbooks.
+Backup strategies.
+Disaster Recovery.
+Azure Site Recovery.
+SLA considerations.
+Capacity planning.
+Cost monitoring.
+Resource health.
+Incident response.
+Operational best practices.
+
+Section 8 – Architecture & Scenario Questions (206–220)
+Design a secure Azure-based Lakehouse processing 20 TB/day.
+Design a multi-region disaster recovery strategy for Databricks and ADLS.
+How would you migrate on-premises ETL to Azure?
+Design a metadata-driven ingestion framework using ADF and Databricks.
+Build a streaming pipeline using Event Hubs, Databricks, and Delta Lake.
+How would you secure sensitive PII data across Azure services?
+Design a CI/CD pipeline for Azure Databricks using Azure DevOps.
+Reduce Azure costs by 30% without affecting SLAs.
+Handle ADLS throttling under heavy workloads.
+Troubleshoot intermittent ADF pipeline failures.
+Diagnose authentication failures between Databricks and ADLS.
+Design a cross-subscription data platform with centralized governance.
+Explain your monitoring strategy for production data pipelines.
+Describe a major Azure production incident you resolved.
+If starting from scratch today, how would you design an enterprise Azure Data Platform?
+
+Senior-Level Production Scenarios
+Scenario 1 – ADLS Performance
+
+Your Databricks jobs are reading from ADLS, and read performance has degraded significantly.
+
+Discuss:
+
+Small file problem
+Partitioning
+Parallelism
+Network throughput
+Storage account limits
+Spark configuration
+Delta optimization
+
+Scenario 2 – ADF Reliability
+
+A metadata-driven ADF framework loads 500 tables every night. About 20 pipelines fail intermittently.
+
+How would you:
+
+Isolate the root cause?
+Implement retries?
+Make the framework restartable?
+Capture operational metrics?
+
+Scenario 3 – Identity Migration
+
+Your organization wants to replace all Service Principals with Managed Identities.
+
+Explain:
+
+Benefits
+Risks
+Migration strategy
+Rollback plan
+Security implications
+
+Scenario 4 – Azure Cost Optimization
+
+Monthly Azure spend increased from $250K to $400K.
+
+How would you investigate?
+
+Expected areas:
+
+Compute utilization
+Storage growth
+Network egress
+Idle resources
+Databricks clusters
+SQL Warehouses
+ADLS lifecycle policies
+
+Scenario 5 – Enterprise Security
+
+Design an Azure data platform that satisfies:
+
+Private networking
+No public endpoints
+Least-privilege access
+Customer-managed encryption keys
+Centralized auditing
+Regulatory compliance
+
+Explain the services and architecture you would use.
