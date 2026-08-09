@@ -1,0 +1,159 @@
+Python Fundamentals
+What are Python's key features?
+Explain Python's execution model.
+What is bytecode?
+What is the Python Virtual Machine (PVM)?
+Why is Python interpreted?
+Explain the compilation process in Python.
+What is a .pyc file?
+Where are .pyc files stored?
+How does Python import modules?
+What is __name__ == "__main__"?
+Memory Management
+Explain stack vs heap.
+How does Python manage memory?
+What is reference counting?
+What is cyclic garbage collection?
+When does Python invoke the garbage collector?
+How can you force garbage collection?
+What causes memory leaks in Python?
+What are weak references?
+What is object interning?
+Why are small integers cached?
+Mutable vs Immutable
+Explain mutable objects.
+Explain immutable objects.
+Why are strings immutable?
+Why are tuples immutable?
+Why are lists mutable?
+Can a tuple contain mutable objects?
+Explain hashability.
+Why can tuples be dictionary keys?
+Why can't lists be dictionary keys?
+How does immutability improve performance?
+Functions
+What are first-class functions?
+What are higher-order functions?
+Explain closures.
+Explain decorators.
+What are nested functions?
+Explain lambda expressions.
+What are default arguments?
+What are keyword-only arguments?
+Explain *args.
+Explain **kwargs.
+OOP
+Four pillars of OOP.
+Method Resolution Order (MRO).
+Multiple inheritance.
+Abstract classes.
+Metaclasses.
+Magic methods.
+__new__ vs __init__.
+staticmethod vs classmethod.
+Encapsulation.
+Composition vs inheritance.
+Advanced Python
+What is the GIL?
+Why does Python have a GIL?
+Multithreading vs multiprocessing.
+Async vs threading.
+Explain asyncio.
+What is an event loop?
+Explain coroutines.
+Explain generators.
+Yield vs return.
+Iterator protocol.
+Design Patterns
+Factory Pattern.
+Singleton.
+Strategy.
+Observer.
+Dependency Injection.
+Builder.
+Adapter.
+Facade.
+Repository Pattern.
+Unit of Work.
+Coding
+Reverse string.
+Reverse words.
+LRU Cache.
+LFU Cache.
+Merge Intervals.
+Top K Frequent.
+Sliding Window Maximum.
+Longest Substring.
+Two Sum.
+Three Sum.
+Binary Search.
+Merge K Sorted Lists.
+Valid Parentheses.
+Group Anagrams.
+Rotate Matrix.
+Trapping Rain Water.
+Median of Two Arrays.
+Serialize Binary Tree.
+BFS.
+DFS.
+Dijkstra.
+Detect Cycle.
+Clone Graph.
+Trie.
+Heap.
+Priority Queue.
+Producer Consumer.
+Thread-safe Queue.
+Rate Limiter.
+Design URL Shortener.
+Production Python
+Logging best practices.
+Exception hierarchy.
+Retry mechanisms.
+Circuit breaker.
+Context managers.
+Unit testing.
+Pytest fixtures.
+Mocking.
+Profiling.
+Memory optimization.
+Type hints.
+Dataclasses.
+NamedTuple.
+Slots.
+Pickle.
+JSON serialization.
+Thread safety.
+Race conditions.
+Deadlocks.
+Lock vs RLock.
+Semaphore.
+Condition variables.
+ThreadPoolExecutor.
+ProcessPoolExecutor.
+Multiprocessing queues.
+Shared memory.
+Performance optimization.
+Time complexity.
+Space complexity.
+Python packaging.
+Virtual environments.
+Dependency management.
+Linting.
+Black vs Flake8.
+PEP 8.
+Python profiling tools.
+cProfile.
+memory_profiler.
+line_profiler.
+py-spy.
+Async API calls.
+REST APIs.
+GraphQL basics.
+gRPC basics.
+WebSockets.
+File streaming.
+CSV vs Parquet processing.
+Pandas vs PySpark.
+Arrow integration.
+PySpark UDF performance.
