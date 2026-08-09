@@ -1,0 +1,50 @@
+Your Spark job increased from 20 minutes to 4 hours. How would you troubleshoot?
+A single partition is 400 GB while the others are 2 GB. How would you handle the skew?
+Executors are repeatedly failing with OutOfMemoryError. What metrics and logs would you inspect?
+Explain when to use repartition() versus coalesce().
+How do you choose the right number of partitions for a workload?
+Why is shuffle expensive, and how can you reduce it?
+How do you identify shuffle bottlenecks in the Spark UI?
+What causes excessive spill to disk, and how do you mitigate it?
+How do you optimize joins on a 10 TB dataset?
+When should you use a broadcast join, and when should you avoid it?
+Explain salting to mitigate data skew.
+How do you optimize small file problems in Delta Lake?
+What is predicate pushdown, and why is it important?
+What is column pruning?
+How does partition pruning improve performance?
+How do you tune executor memory and cores?
+What Spark configuration changes would you evaluate before increasing cluster size?
+Explain the trade-offs of caching data.
+When is checkpointing preferable to caching?
+How do you optimize PySpark UDF performance?
+Why are built-in Spark SQL functions usually faster than Python UDFs?
+What are Pandas UDFs, and when should you use them?
+How does Apache Arrow improve performance?
+Explain serialization overhead in PySpark.
+How do you optimize Delta MERGE operations?
+How do OPTIMIZE and ZORDER improve query performance?
+What metrics in the Spark UI indicate CPU bottlenecks?
+What metrics indicate I/O bottlenecks?
+How do you investigate long-running stages?
+Explain speculative execution and when it helps.
+How would you optimize a streaming job with growing state?
+How do you investigate executor imbalance?
+What causes task skew even with balanced partitions?
+Explain dynamic allocation and its trade-offs.
+How do you reduce cloud storage read costs?
+How do you tune Spark for Azure Data Lake Storage?
+What changes would you make for Photon-enabled clusters?
+How do you optimize Delta tables for BI queries?
+How would you profile a Spark application end to end?
+Explain Spark event logs and their role in troubleshooting.
+A cached DataFrame doesn't improve performance. Why might that happen?
+How do you handle late-arriving data in Spark pipelines?
+How do you design idempotent Spark jobs?
+How do you recover from partial job failures?
+What production monitoring metrics would you expose for Spark?
+How do you estimate cluster cost versus performance?
+How would you benchmark Spark job improvements?
+Describe a production incident involving Spark and how you resolved it.
+What Spark tuning mistakes do you see most often?
+If you were reviewing a teammate's Spark job, what performance checklist would you follow?
