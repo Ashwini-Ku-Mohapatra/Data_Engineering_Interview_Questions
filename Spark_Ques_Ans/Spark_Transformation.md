@@ -37,15 +37,5 @@ o	first(), take(n): Fetches the first row or first \(n\) rows.
 o	write() / save(): Writes the output to storage.
 o	show(): Prints a sample of the data to the console. 
 ________________________________________
-Visualizing the Workflow
-text
-[Data Source] 
-     │
-     ▼ (Transformation: Narrow)
-[Filter Data]  ──► (No shuffle, same Stage)
-     │
-     ▼ (Transformation: Wide)
-[Group By Key] ──► (Shuffle boundary, splits into New Stage)
-     │
-     ▼ (Action: .count())
-[Trigger Job]  ──► (DAG is evaluated, data is processed, result returned)
+<img width="641" height="310" alt="image" src="https://github.com/user-attachments/assets/9083e50c-7e1e-43f0-99c8-c581820353db" />
+
