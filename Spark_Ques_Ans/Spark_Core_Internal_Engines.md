@@ -30,3 +30,4 @@ AQE provides three critical runtime optimizations:
 •	Dynamically Switching Join Strategies: If CBO estimated a table was too large to broadcast, but a runtime filter operation reduces its actual size below the broadcast threshold, AQE intercepts the plan and switches a slow SortMergeJoin into a blazing fast BroadcastHashJoin.
 •	Dynamically Handling Skew Joins: If data skew causes one partition to be massive while others are tiny, AQE detects this asymmetry at runtime, splits the large partition into smaller sub-partitions, and joins them separately to eliminate "straggler tasks." 
 
+<img width="1125" height="412" alt="image" src="https://github.com/user-attachments/assets/90b6a557-d9d6-42ab-9bc0-98370723b34e" />
