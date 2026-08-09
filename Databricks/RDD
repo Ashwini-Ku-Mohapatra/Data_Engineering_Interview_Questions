@@ -1,0 +1,40 @@
+What is RDD?
+Why RDD?
+Immutable RDD.
+RDD creation.
+Parallelize.
+TextFile.
+WholeTextFile.
+SequenceFile.
+Explain partitioning.
+Explain persistence.
+Cache.
+Persist.
+Storage levels.
+Checkpoint.
+map()
+flatMap()
+filter()
+distinct()
+union()
+intersection()
+subtract()
+reduceByKey()
+groupByKey()
+aggregateByKey()
+combineByKey()
+foldByKey()
+mapPartitions()
+mapPartitionsWithIndex()
+coalesce()
+repartition()
+zip()
+cartesian()
+sample()
+count()
+collect()
+take()
+saveAsTextFile()
+Explain RDD fault tolerance.
+Explain RDD lineage.
+RDD vs DataFrame.
