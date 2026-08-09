@@ -1,0 +1,30 @@
+What is AQE?
+Why AQE?
+Runtime optimization.
+Adaptive shuffle partition.
+Dynamic partition pruning.
+Join switching.
+Broadcast conversion.
+Skew join optimization.
+Coalescing partitions.
+Runtime statistics.
+Explain adaptive plan.
+Enable AQE.
+Disable AQE.
+Explain exchange reuse.
+Local shuffle reader.
+Adaptive skew handling.
+Partition coalescing.
+Runtime broadcast.
+Dynamic file pruning.
+Runtime optimization examples.
+AQE limitations.
+AQE metrics.
+AQE debugging.
+AQE logs.
+AQE best practices.
+AQE interview scenarios.
+AQE production tuning.
+AQE memory impact.
+AQE performance tuning.
+AQE troubleshooting
