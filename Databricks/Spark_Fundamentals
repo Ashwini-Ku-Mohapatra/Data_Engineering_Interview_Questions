@@ -1,0 +1,43 @@
+Spark Fundamentals (1–40)
+------------------------
+Spark Basics
+What is Apache Spark?
+Why was Spark developed?
+Spark vs Hadoop MapReduce.
+Spark Core architecture.
+Components of Spark.
+Explain Spark Ecosystem.
+What are Spark modules?
+Explain SparkSession.
+Explain SparkContext.
+SQLContext vs HiveContext vs SparkSession.
+Spark Application.
+Spark Job.
+Spark Stage.
+Spark Task.
+Explain Driver.
+Explain Executor.
+Cluster Manager.
+Worker Node.
+Local Mode.
+Client Mode.
+Cluster Mode.
+Standalone Cluster.
+YARN.
+Kubernetes.
+Mesos.
+Explain Spark UI.
+Explain Spark History Server.
+Event Logs.
+Driver Logs.
+Executor Logs.
+Spark Configuration.
+spark-submit.
+Spark Packages.
+Explain Spark Version compatibility.
+Explain Spark Connect.
+Explain Databricks Runtime.
+Explain Photon.
+Explain Serverless Compute.
+Explain Spark SQL.
+Explain DataFrame API
