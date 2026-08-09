@@ -1,0 +1,40 @@
+What is DAG?
+Why DAG?
+Explain DAG Scheduler.
+Explain Task Scheduler.
+Explain Logical Plan.
+Physical Plan.
+Optimized Logical Plan.
+Stage creation.
+Task creation.
+Job execution lifecycle.
+Explain lineage.
+Why lineage?
+Fault recovery.
+Checkpointing.
+Lazy Evaluation.
+Actions.
+Transformations.
+Narrow Transformation.
+Wide Transformation.
+Shuffle dependency.
+Pipeline execution.
+Explain Stage Boundary.
+Why does shuffle create stages?
+Explain task locality.
+Process Local.
+Node Local.
+Rack Local.
+Any locality.
+Speculative execution.
+Task retry.
+Stage retry.
+Job retry.
+Executor failure.
+Driver failure.
+Lost partition recovery.
+Explain RDD lineage graph.
+Explain execution graph.
+Explain Spark listeners.
+Explain accumulators.
+Explain broadcast variables.
