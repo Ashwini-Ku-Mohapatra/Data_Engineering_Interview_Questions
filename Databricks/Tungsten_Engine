@@ -1,0 +1,30 @@
+What is Tungsten?
+Why Tungsten?
+Unsafe Row.
+Binary format.
+Off-heap memory.
+Memory manager.
+Cache-friendly layout.
+Whole Stage Code Generation.
+Vectorized execution.
+SIMD.
+Cache locality.
+CPU optimization.
+Memory allocation.
+Garbage Collection reduction.
+Spill to disk.
+External sorter.
+Hash aggregation.
+Sort aggregation.
+Hash join.
+Sort merge join.
+Broadcast hash join.
+Shuffle hash join.
+Unsafe projection.
+Code generation.
+JVM bytecode generation.
+CPU pipeline optimization.
+Explain cache misses.
+Explain branch prediction.
+Explain Photon vs Tungsten.
+Explain native execution
