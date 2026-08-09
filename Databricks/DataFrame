@@ -1,0 +1,50 @@
+DataFrame Architecture.
+Dataset Architecture.
+RDD vs DataFrame vs Dataset.
+Schema Inference.
+Explicit Schema.
+StructType.
+StructField.
+Catalyst support.
+Tungsten support.
+DataFrame transformations.
+DataFrame actions.
+select()
+withColumn()
+drop()
+alias()
+explode()
+posexplode()
+arrays_zip()
+struct()
+collect_list()
+collect_set()
+concat_ws()
+regexp_extract()
+regexp_replace()
+JSON parsing.
+XML parsing.
+CSV options.
+Parquet optimization.
+ORC optimization.
+Delta support.
+Schema evolution.
+Schema enforcement.
+Nested schema.
+Flatten JSON.
+Pivot.
+Unpivot.
+Window functions.
+DataFrame cache.
+Explain explain().
+Explain queryExecution.
+Logical plan.
+Optimized plan.
+Physical plan.
+Adaptive plan.
+Broadcast hints.
+Repartition hints.
+Coalesce hints.
+SQL hints.
+Dynamic partition pruning.
+Column pruning.
