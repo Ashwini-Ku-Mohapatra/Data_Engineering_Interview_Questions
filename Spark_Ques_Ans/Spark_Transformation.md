@@ -2,7 +2,7 @@ Transformations, Actions, and Evaluation in Spark
 Spark relies on a lazy execution model built around two core types of operations: Transformations and Actions. 
 ________________________________________
 1. Transformations
-Transformations are operations applied to a dataset (DataFrame or RDD) that create a brand-new dataset without altering the original one. They follow the principle of immutability. [1, 2, 3, 4, 5]
+Transformations are operations applied to a dataset (DataFrame or RDD) that create a brand-new dataset without altering the original one. They follow the principle of immutability.
 •	No Immediate Execution: Calling a transformation does not compute the results. It simply registers the instruction in the DAG.
 •	Categories: They are fundamentally split into two types based on how data moves across the cluster: Narrow and Wide. 
 Narrow Transformations
